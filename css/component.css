@@ -13,7 +13,13 @@
 html, body, .container, .main { height: 100%; width: 100%;}
 
 /* main wrapper */
+span.bold{
+	font-weight: bold;
+}
 
+.source{
+	font-style: italic;
+}
 .grey {
 	background-color: lightgray;
 	padding: 1em;
@@ -65,6 +71,8 @@ html, body, .container, .main { height: 100%; width: 100%;}
 	padding-left: .1em;
 	margin: 0 auto;
 }
+
+
 
 /* Whithout JS, we use :target */
 .cbp-contentslider > ul li:target {
@@ -255,7 +263,8 @@ img {
 	text-align: center;
 	padding-bottom: 1em;
 	padding-left: 1em;
-	position: relative;
+	/*position: relative;*/
+	padding-top: 40px;
 
 }
 
