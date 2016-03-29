@@ -268,6 +268,17 @@ img {
 
 }
 
+img.main {
+	width: 95%;
+	margin: 0 auto;
+	text-align: center;
+	padding-bottom: 1em;
+	padding-left: 1em;
+	/*position: relative;*/
+	padding-top: 10px;
+
+}
+
 
 @media screen and (min-width: 0px) and (max-width: 700px) {
   .cbp-contentslider .cbp-content { width: 100%; border: none;}  /* show it on small screens */
